@@ -1,0 +1,49 @@
+
+
+body, .bg-black {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+a, .nav-link {
+  color: #fff !important;
+  transition: color 0.2s;
+}
+a:hover, .nav-link:hover {
+  color: #8e8b8b !important;
+  text-decoration: underline;
+}
+.card {
+  background: #181818 !important;
+  color: #fff !important;
+  border: 1px solid #333 !important;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 0 10px #222;
+}
+.btn {
+  background: #fff !important;
+  color: #111 !important;
+  border: none !important;
+  transition: background 0.2s, color 0.2s;
+}
+.btn:hover {
+  background: #bbb !important;
+  color: #111 !important;
+}
+.clr-black-ft {
+  color: black !important;
+}
+
+.dropdown-toggle {
+  background: none !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.dropdown-toggle:focus, .dropdown-toggle:active .dropdown-toggle:hover{
+  background: none !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  border: none !important;
+}
